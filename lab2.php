@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -6,7 +8,6 @@
 </head>
 
 <body>
-
 <?php 
 if (isset($_POST["a"]) && isset($_POST["b"]))
 {
@@ -28,8 +29,7 @@ $nghiem= "x= $x";
 
 }
 ?>
-
-<form action="vidu3.php" method="post" >
+<form action="lab2.php" method="post" >
 <table width="744" border="1">
 <tr>
 <td colspan="3" bgcolor="#336699"><strong>Giải phương trình bậc 1 </strong></td>
@@ -47,8 +47,7 @@ X + </td>
 <td colspan="3">
 Nghiệm 
 <label for="textfield2"></label>
-<input name="kq" type="text" id="textfield2 " disabled value="<?php  if(isset($nghiem)) echo $nghiem; ?>"  /></tr>
-
+<input name="kq" type="text" id="textfield2" disabled value="<?php  if(isset($nghiem)) echo $nghiem; ?>" /></tr>
 <tr>
 <td colspan="3" align="center" valign="middle"><input type="submit" name="chao" id="chao" value="Xuất" /></td>
 </tr>
@@ -56,3 +55,4 @@ Nghiệm
 </form>
 </body>
 </html>
+
