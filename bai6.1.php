@@ -43,7 +43,7 @@
 	</style>
 </head>
 <body>
-	<form action="3-11.php" method="POST">
+	<form action="bai6.1.php" method="POST">
 		<table border="0">
 			<thead>
 				<tr>

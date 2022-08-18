@@ -30,7 +30,7 @@
 	</style>
 </head>
 <body>
-	<form method="POST" action="mang-1.php">
+	<form method="POST" action="bai6.2.php">
 		<table>
 			<thead>
 				<tr>
